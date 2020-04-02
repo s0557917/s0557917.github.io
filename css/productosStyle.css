@@ -17,7 +17,7 @@ hr.invisible-divider{
 }
 
 /*----------OVERLAY-----*/
-.overlay_image:hover .overlay_image .overlay{
+.overlay_image:hover .overlay{
   opacity: 1;
 }
 
