@@ -4,11 +4,24 @@
    min-width: 100%;
  }
 
+ .carousel-inner .carousel-item {
+   transition: -webkit-transform 2s ease;
+   transition: transform 2s ease;
+   transition: transform 2s ease, -webkit-transform 2s ease;
+ }
 
+ .carousel-overlay {
+     position: absolute;
+     bottom: 250px;
+     right: 0;
+     left: 0;
+ }
 
-
-
-
+.carousel-overlay-text{
+  color: #E3CAAB;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 100px;
+}
 
 
 
