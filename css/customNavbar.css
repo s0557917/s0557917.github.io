@@ -33,6 +33,7 @@
 }
 .navbar-custom .navbar-nav .dropdown-menu>a  {
   color: #77372B;
+  font-weight: bold;
 }
 .navbar-custom .navbar-nav .dropdown-menu>a:hover,.navbar-custom .navbar-nav .dropdown-menu>a:focus  {
   color: #38624D;

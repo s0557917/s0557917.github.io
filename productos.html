@@ -53,23 +53,23 @@
 
     <!--TABS-->
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs nav-mytabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#bombones">Bombones</a>
+        <a class="nav-link active" id="bombones-tab" data-toggle="tab" href="#bombones" role="tab" aria-controls="bombones" aria-selected="true">Bombones</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#paquetes">Paquetes</a>
+        <a class="nav-link" id="paquetes-tab" data-toggle="tab" href="#paquetes" role="tab" aria-controls="paquetes" aria-selected="false">Paquetes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#tabletas">Tabletas</a>
+        <a class="nav-link" id="tabletas-tab" data-toggle="tab" href="#tabletas" role="tab" aria-controls="tabletas" aria-selected="false">Tabletas</a>
       </li>
     </ul>
 
     <hr class="invisible-divider">
 
     <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane container active" id="bombones">
+    <div class="tab-content mytab-content" id="myTabContent">
+      <div class="tab-pane container fade show active" id="bombones" role="tabpanel" aria-labelledby="bombones-tab">
         <!--TEMP-->
         <!-- Grid row -->
         <div class="row">
@@ -82,7 +82,7 @@
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/1.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/1.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -98,7 +98,7 @@
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/2.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/2.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -114,7 +114,7 @@
 
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/3.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/3.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -129,7 +129,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/4.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/4.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -144,7 +144,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/5.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/5.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -159,7 +159,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/6.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/6.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -174,7 +174,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/7.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/7.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -189,7 +189,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/8.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/8.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -204,7 +204,7 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/9.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/9.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -219,7 +219,22 @@
         <!-- Grid column -->
         <!-- Grid column -->
         <div class="mb-3 pics animation all 2 overlay_image">
-          <img class="img-fluid" src="media/images/Gallery/10.jpg" alt="Card image cap">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/10.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Bombones/11.jpg" alt="Card image cap">
           <div class="overlay">
             <div class="image_text">
               <h3><b>Hello World</b></h3>
@@ -238,8 +253,188 @@
 
         <!--TEMP-->
       </div>
-      <div class="tab-pane container fade" id="paquetes">...</div>
-      <div class="tab-pane container fade" id="tabletas">...</div>
+
+      <div class="tab-pane container fade" id="paquetes" role="tabpanel" aria-labelledby="paquetes-tab">
+        <!-- Grid row -->
+        <div class="row">
+
+      </div>
+      <!-- Grid row -->
+
+      <!-- Grid row -->
+      <div class="gallery" id="gallery">
+
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/1.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/2.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/3.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/4.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/5.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/6.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/7.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Paquetes/8.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+        <!--TEMP-->
+      </div>
+
+      <div class="tab-pane container fade" id="tabletas" role="tabpanel" aria-labelledby="tabletas-tab">
+        <!-- Grid row -->
+        <div class="row">
+
+      </div>
+      <!-- Grid row -->
+
+      <!-- Grid row -->
+      <div class="gallery" id="gallery">
+
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Tabletas/1.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics animation all 2 overlay_image overlay_image">
+          <img class="img-fluid" src="media/images/Gallery/Tabletas/2.jpg" alt="Card image cap">
+          <div class="overlay">
+            <div class="image_text">
+              <h3><b>Hello World</b></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
     </div>
 
     <hr class="featurette-divider">
